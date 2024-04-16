@@ -1,0 +1,39 @@
+{
+  "name": "power-tower-defence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "build": "vite build",
+    "lint": "eslint 'src/*.js'",
+    "lint:fix": "eslint 'src/*.js' --fix",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burntcustard/power-tower-defence.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burntcustard/power-tower-defence/issues"
+  },
+  "homepage": "https://github.com/burntcustard/power-tower-defence#readme",
+  "dependencies": {
+    "kontra": "^9.0.0",
+    "rollup-plugin-kontra": "^1.0.1"
+  },
+  "devDependencies": {
+    "advzip-bin": "^2.0.0",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "html-minifier": "^4.0.0",
+    "jszip": "^3.10.1",
+    "roadroller": "^2.1.0",
+    "terser": "^5.19.2",
+    "vite": "^4.4.9"
+  }
+}
